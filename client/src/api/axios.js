@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://tutedude-1-ag3o.onrender.com/api',
 });
 
 // Request interceptor
